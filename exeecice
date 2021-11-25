@@ -1,0 +1,8 @@
+
+.utilisateur {
+    right: 0;
+    top: 0;
+}
+    <div id="utilisateur">
+        <img src="img/icone-utilisateur-gris.png" alt="utilisateur" height="80px">
+    </div>

@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: blue;
+    height: 10vh;
+    width: 100%;
+}
+.sidebar{
+    background-color: green;
+    height: 80vh;
+    width: 25%;
+}
+.container{
+    background-color: red;
+    height: 80vh;
+    width: 75%;
+}
+.main{
+    display: flex;
+}
+.footer{
+    background-color: grey;
+    height: 10vh;
+    width: 100%;
+}

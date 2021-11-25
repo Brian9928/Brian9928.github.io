@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+}
+li {
+    padding: 40px;
+    margin: 40px;
+    list-style-type: none;
+}
+svg {
+    display: none;
+}
+li {
+    display: block;
+}
+
+@media screen and (max-width: 640px) {
+    svg {
+        display: block;
+    }
+    li {
+        display: none;  
+    }
+}

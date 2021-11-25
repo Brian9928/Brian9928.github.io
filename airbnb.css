@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url("https://lh3.googleusercontent.com/ObtUhCKF5c-oE76gO4pIZccwlMP9E_QqQbgKhWrR4bmNpyYO6h_8I30C_rG6IwVi20_AAxlzDnoaUosRbGMnkhClXeMiz5lHSEiZk9N606ts_gM5fHLx0W9N9xH_zVapcgjpRpP9");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex; text-align: center;
+    justify-content: center;
+    color:red;
+}
+
+div {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    height: 100%;
+    width: 100vh;
+    overflow: hidden;
+    position: fixed;
+}
+li {
+    display: inline;
+    margin: 100px;
+    padding: 10px;
+    color: red;
+    align-items: flex-start;
+}
+svg {
+    display: none;
+}
+
+img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+img { 
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.bar {
+    padding: 15px;
+    margin: 15px;
+    list-style-type: none;
+    display: flex; 
+    text-align: center;
+    bottom: 40px;
+}
+
+.hote {
+    text-align: right;
+    
+}
+
+li {
+    padding: 40px;
+    margin: 40px;
+    list-style-type: none;
+}
+svg {
+    display: none;
+}
+li {
+    display: block;
+}
+
+@media screen and (max-width: 640px) {
+    svg {
+        display: block;
+    }
+    li {
+        display: none;
+    }
+}
+/*.utilisateur {
+    right: 0;
+    top: 0;
+}*/
+
+/* background-image: url("https://img2.freepng.fr/20180811/xwg/kisspng-logo-airbnb-portable-network-graphics-brand-produc-run-walk-praise-a-gospelfit-5k-day-party-5b6f9e75dcaf98.6865585415340417179039.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: flex-start;
+    width: 10%;
+    height: 10vh;
+    margin: 40;
+    padding: 40;
+

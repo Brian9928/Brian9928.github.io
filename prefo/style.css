@@ -1,0 +1,10 @@
+h1 {
+    color: red;
+    background-color: black;
+}
+#montitre {
+    font-style: italic
+}
+#appetit {
+    font-weight: bold;
+}

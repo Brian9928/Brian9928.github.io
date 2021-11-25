@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(https://www.premiere.fr/sites/default/files/styles/scale_crop_1280x720/public/2018-04/pincesse_mononoke.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+p {
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    font-size: 100%;
+    align-items: center;
+    
+}
+h1 {
+    font-size: 100%;
+    color: red;
+    align-items: center;
+    justify-content: center;
+    height: 18vh;
+    display: flex;
+
+}

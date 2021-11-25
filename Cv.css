@@ -1,0 +1,19 @@
+.ace{
+    font-family: 'Shadows Into Light', cursive;
+}
+body{
+    background-image: url("https://s1.dmcdn.net/v/D6Uwy1Vn_2wfzvVvF/x1080");
+    background-repeat: no-repeat;
+
+}
+.smile{
+    border-style: dashed;
+    border-top: 5px solid red;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid red;
+}
+img{
+    border: 1px solid;
+    box-shadow:8px 8px 12px red;
+}
