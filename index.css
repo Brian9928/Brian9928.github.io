@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+} body {
+    background-image: url(https://cdn.futura-sciences.com/buildsv6/images/mediumoriginal/e/6/f/e6fdadd93f_50078058_573-nuages.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
