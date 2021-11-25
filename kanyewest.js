@@ -1,17 +1,26 @@
-//Selecteur
-
+// Selecteurs
 let citation = document.getElementById("citation")
-let citation_new = document.getElementById("citation_new")
+let citationNew = document.getElementById("citationNew")
 
-//Variable
-//Evenement
-citation_new.addEventListener('click'), () => {
-window.addEventListener('Load'), () => 
-fetch("https://api.kanye.rest/")
-.then(response => response.json())
-.then(data => {
-    console.log(data)
-    citation.innerText = data.quote
+// Variables
+
+// Evenements
+
+window.addEventListener('load', () => {
+    fetch("https://api.kanye.rest/")
+    .then(response => response.json())
+    .then(data => {
+        console.log(data)
+        citation.innerText = data.quote
+    })
 })
-}
-//Fonction
+
+citationNew.addEventListener('click', () => {
+    fetch("https://api.kanye.rest/")
+    .then(response => response.json())
+    .then(data => {
+        console.log(data)
+        citation.innerText = data.quote
+    })
+})
+// Fonctions
