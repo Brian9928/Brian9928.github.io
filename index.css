@@ -20,4 +20,8 @@ h1 {
 p {
     color: black;
     align-items: center;
-}
+        border-bottom: 2px solid black;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 20px;
+    }
