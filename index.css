@@ -24,4 +24,11 @@ p {
         padding-left: 10px;
         padding-right: 10px;
         margin: 20px;
+        border: 2px solid red;
+        border-radius: 2px;
+        border-color: black;
+        border-spacing: 0;
+        padding: 20px;
+        margin: 20px;
+        background-color: white;
     }
